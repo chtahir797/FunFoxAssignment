@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+.logoweek{
+    display: flex;
+}
+.weeks{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -10%);
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}

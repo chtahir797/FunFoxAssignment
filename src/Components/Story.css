@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+
+.story-parent {
+  font-family: "Short Stack";
+  height: 100vh;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heading {
+  margin: auto;
+  padding: 10px;
+  background-color: #fe6784;
+  border: 5px dashed #ffaebe;
+  color: #ffffff;
+  width: max-content;
+  border-radius: 50px;
+}
+
+.heading p{
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.story-elements {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: #25a3a1;
+  border: 5px dashed #a4fdfb;
+  color: #ffffff;
+}
+
+.story-elements p {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.description p,
+.description2 p {
+  font-size: 26px;
+  color: #1e242f;
+  text-align: left;
+}
+
+
+
+.clouds {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4,
+.cloud5 {
+  position: relative;
+}
+
+.cloud1 p,
+.cloud2 p,
+.cloud3 p,
+.cloud4 p,
+.cloud5 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud1 img,
+.cloud2 img,
+.cloud3 img,
+.cloud4 img,
+.cloud5 img {
+  width: 100%;
+}
+
+.rectangle {
+  background-color: #fe6784;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 2px 0px #00000040;
+}
+
+.back-image {
+  background-image: url("../assets/text-back.png");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.back-image p {
+  padding: 5px 25px;
+  font-size: 26px;
+  color: #1e242f;
+  text-align: left;
+}
+.thinking img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  .heading p{
+    font-size: 30px;
+  }
+
+  .story-elements p {
+    font-size: 16px;
+  }
+  
+  .description p,
+  .description2 p {
+    font-size: 16px;
+  }
+
+  .back-image p {
+    font-size: 16px;
+  }
+
+}

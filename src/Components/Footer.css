@@ -1,0 +1,27 @@
+.footer-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-child {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.allbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+select {
+  padding: 10px;
+  background-color: #cd3f97;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,123 @@
+.story2-parent {
+  font-family: "Short Stack";
+  height: 100vh;
+  margin: 10px 20px;
+}
+.heading-story2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.head p {
+  font-weight: lighter;
+  font-size: 38px;
+}
+.para p {
+  font-size: 26px;
+}
+
+.frames,
+.caption {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.caption div p {
+  text-align: center;
+}
+.img01,
+.img02,
+.quest-input {
+  border: 4px dashed #cccccc;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-spacing: 10px;
+}
+.frames .img01 img,
+.frames .img02 img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 4 / 3;
+}
+.frame1 p,
+.frame02 p {
+  margin-top: 5px;
+  text-align: center;
+}
+.setting p {
+  font-size: 26px;
+}
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 26px;
+}
+.quest-input input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  background-color: #f7f9fe;
+  min-width: 50vw;
+}
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.quotes {
+    padding: 10px; 
+    background-color: #25a3a1;
+    border: 5px dashed #a4fdfb;
+    color: #ffffff;
+  }
+  
+  .quotes p {
+    font-size: 26px;
+    margin: 0;
+  }
+  .quotes img {
+    vertical-align: middle; 
+    margin: 0 5px; 
+  }
+  .end-story p{
+    font-size: 26px;
+  }
+
+@media only screen and (max-width: 992px) {
+  .head p {
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .para p {
+    font-size: 16px;
+  }
+  .setting p {
+    font-size: 16px;
+  }
+  .quest-input input {
+    min-width: 40vw;
+  }
+  .question {
+    font-size: 16px;
+  }
+  .quotes p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .quotes img {
+    width: 25px;
+    vertical-align: middle; 
+    margin: 0 5px; 
+  }
+  .end-story p{
+    font-size: 16px;
+  }
+}
